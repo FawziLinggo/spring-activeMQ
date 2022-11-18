@@ -1,13 +1,13 @@
-package developer.alldataint.com.springproduceractiveMQ;
+package developer.alldataint.com;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringProducerActiveMqApplication {
+public class App {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringProducerActiveMqApplication.class, args);
+		SpringApplication.run(App.class, args);
 	}
 
 }
